@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>所有文章 on π&gt;3</title>
+    <link>https://www.ampbb.net/posts/</link>
+    <description>Recent content in 所有文章 on π&gt;3</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.ampbb.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test1</title>
+      <link>https://www.ampbb.net/2023/02/test1/</link>
+      <pubDate>Tue, 14 Feb 2023 15:09:50 +0800</pubDate>
+      
+      <guid>https://www.ampbb.net/2023/02/test1/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
