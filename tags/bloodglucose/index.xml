@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>All Posts on π≮3</title>
-    <link>https://www.ampbb.net/posts/</link>
-    <description>Recent content in All Posts on π≮3</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://www.ampbb.net/posts/index.xml" rel="self" type="application/rss+xml" />
+    <title>bloodglucose on π≮3</title>
+    <link>https://www.ampbb.net/tags/bloodglucose/</link>
+    <description>Recent content in bloodglucose on π≮3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 21 Mar 2023 09:33:17 +0800</lastBuildDate><atom:link href="https://www.ampbb.net/tags/bloodglucose/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Easy way to evaluate HCT inference of glucose meters</title>
       <link>https://www.ampbb.net/2023/03/hct-easy-evaluate/</link>

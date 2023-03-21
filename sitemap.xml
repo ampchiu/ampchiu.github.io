@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://www.ampbb.net/tags/bloodglucose/</loc>
+    <lastmod>2023-03-21T09:33:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ampbb.net/2023/03/hct-easy-evaluate/</loc>
+    <lastmod>2023-03-21T09:33:17+08:00</lastmod>
+  </url><url>
+    <loc>https://www.ampbb.net/tags/</loc>
+    <lastmod>2023-03-21T09:33:17+08:00</lastmod>
+  </url><url>
     <loc>https://www.ampbb.net/projects/</loc>
     <lastmod>2023-02-14T15:04:14+08:00</lastmod>
   </url><url>
     <loc>https://www.ampbb.net/projects/test2/</loc>
-    <lastmod>2023-02-14T15:04:14+08:00</lastmod>
-  </url><url>
-    <loc>https://www.ampbb.net/2023/02/test1/</loc>
     <lastmod>2023-02-14T15:04:14+08:00</lastmod>
   </url><url>
     <loc>https://www.ampbb.net/categories/3D%E7%9F%AD%E7%89%87/</loc>
@@ -40,7 +46,5 @@
   </url><url>
     <loc>https://www.ampbb.net/</loc>
     <lastmod>2023-02-14T15:04:14+08:00</lastmod>
-  </url><url>
-    <loc>https://www.ampbb.net/tags/</loc>
   </url>
 </urlset>
