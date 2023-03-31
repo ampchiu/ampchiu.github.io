@@ -87,8 +87,8 @@
     <h2 class="subtitle">
 
       <span class="tag is-info is-light">Mar 30, 2023</span>
-      <span class="tag is-link is-light">3 min</span>
-      <span class="tag is-success is-light">1310 words</span>        
+      <span class="tag is-link is-light">2 min</span>
+      <span class="tag is-success is-light">255 words</span>        
 
       
 <br><br>
@@ -106,78 +106,21 @@
 
 
 <hr>
-<p>Welcome to the channel with pi not less than 3.
-The goal of this channel is to analyze various information in simple terms correctlly.
-Graphic design, photo editing and makeup, often add shadows to increase the stereoscopic.
+<p><img src="/img/e083c5587d414bd50faa7a226119f4a0222d2738.jpg" alt=""></p>
+<p>Graphic design, photo editing and makeup, often add shadows to increase the stereoscopic.
 The technique is also used in 3D graphic rendering.
-This is today&rsquo;s topic, the &ldquo;normal map&rdquo; .
-Here, the calculation and drawing process of 3D drawing is roughly divided into three steps: where to draw, what to draw, and to reproduce the stereoscopic.
-Give an example:
-The mockup used for 2D graphic design is where to draw.
-Putting the operation screen into the mockup is what to draw.
-Some people will add shadows and reflections to the finished product to reproduce the stereoscopic.
-Next, we will illustrate today&rsquo;s theme through animation.
-First, experiment with fewer mirrors, as the mirror turns the stereoscopic changing.
-Try it with more mirrors.
-When the viewing angle becomes larger and larger, more mirrors are blocked.
-If the mirror is blocked, we can&rsquo;t observe light and shadow changes.
-It&rsquo;s becoming less and less stereoscopic.
-The most extreme is to look at it from the side at 90 degrees, we can only see a line from side.
-Let&rsquo;s use fewer mirrors to explain the principle of the normal map.
-The simplified principle is to flatten the height of the reflective surface.
+This is today&rsquo;s topic, the normal map.</p>
+<hr>
+<p><img src="/img/c6ee2efb71bc6adeb61b64eecfcdcc8954047348.jpg" alt=""></p>
+<p>The simplified principle is to flatten the height of the reflective surface.
 Then fine-tune the angle to simulate the original reflective surface.
-But it can only be like, can&rsquo;t be the same.
-The greater angle with the front introduces a greater difference.
-And parallel light is also more accurate than scattered light.
-The word &ldquo;normal&rdquo; is known by those are familiar with high school math and physics.
+But it can only be like, can&rsquo;t be the same.</p>
+<hr>
+<p><img src="/img/c6fdb3a63942d414f1748f44c1f20797c09eb87c.jpg" alt="">
 Let&rsquo;s explain it in plain language:
 The normal map is to shoot a ray vertically from the center of each small mirror.
 Record the intersection of the ray and the sphere with a radius of 1.
-Or, we can imagine a rod is fixed in the center of the mirror.
-Use the red, green, and blue of another picture or layer to record the coordinates of this intersection point.
-Red 0 represents the intersection point X=minus 1
-Red 128 represents intersection point X=0
-Red 255 represents intersection point X=1
-Green 0 represents intersection point Y=minus 1
-Green 128 represents the intersection point Y=0
-Green 255 represents the intersection point Y=1
-Blue 128 represents the intersection point Z=0
-Blue 255 represents the intersection point Z=1
-Because there is only outward reflection, z has no negative numbers.
-According to the previous rules, Let&rsquo;s make a normal map by hand to experiment.
-For the illustration, we only draw a small normal map.
-Apply the normal map on the mirror surface for experimentation.
-Look at the city view, specular reflection angles are changed by the normal map.
-It is hard work for humans to draw normal maps by hand.
-We usually make normal maps with the help of a software tool.
-For details, please refer to the video information.
-Of course, we can also find texture maps on the network.
-Let&rsquo;s download a wooden board material and compare the effect with a normal map and without a normal map
-We use the same ball to paste the wood grain material.
-The left side doesn&rsquo;t apply a normal map, and the right side applies a normal map.
-All of the other conditions are the same.
-Seeing is believing, we don&rsquo;t need any explanation.
-To briefly summarize the concepts explained earlier
-The technology of a normal map is to convert the corresponding picture into small mirrors with different colors and angles.
-The texture map specifies the color of the small mirrors,
-The red, green, and blue channels of the normal map specify the XYZ coordinates of the mirror&rsquo;s vertical emission.
-In addition to the normal map, it can imitate the effect of more polygons with a rough model with a relatively small number of polygons.
-It can also make an effect similar to anti-counterfeiting labels.
-In the future, we will demonstrate how to make funny videos with normal maps. Welcome to interact with us
-Today&rsquo;s video content ends here, pi is not less than 3.
-See you next time.</p>
-<h3 id="法線貼圖就是讓著色器更真實地處理光線反射">法線貼圖就是讓著色器更真實地處理光線反射</h3>
-<p><img src="/img/e083c5587d414bd50faa7a226119f4a0222d2738.jpg" alt="">
-平面設計、化妝、修片,常用加上陰影來增加立體感的技巧也被用在3D繪圖上</p>
-<p>這就是今天的主題,法線貼圖</p>
-<hr>
-<p><img src="/img/c6ee2efb71bc6adeb61b64eecfcdcc8954047348.jpg" alt=""></p>
-<p>簡略的原理就是把本有高低起伏的反射面下壓，壓到同一個高度，而角度微調或不變。這樣在視角比較小的觀察點，幾乎可以完整模擬原有表面的平行光反射光。</p>
-<p>更精確的原理就要自行去研究幾何光學的書了。</p>
-<hr>
-<p><img src="/img/c062ba66854adb57d5988099c1e8bd944939219a.jpg" alt=""></p>
-<p>白話一點來說法線貼圖就是等鏡子的角度確定後，從每個鏡子中心垂直射出一道射線，跟半徑為1的球會有一個交點。法線貼圖的RGB分別就是存每面鏡子射線交點的XYZ。</p>
-<p>更白話一點來說，就是在每個小鏡子上粘一根長度為1的棒子，RGB分別記錄棒頭的座標。這樣就可以用RGB來幫鏡子的設定方向了。</p>
+Or, we can imagine a rod is fixed in the center of the mirror.</p>
 <p>$$
 X = \frac{R-128}{127},
 Y = \frac{G-128}{127},
@@ -185,25 +128,26 @@ Z = \frac{B-128}{127}
 $$</p>
 <hr>
 <p><img src="/img/a7550360b72ad91d49d8f7ac7db164a27b85184d.jpg" alt=""></p>
-<p>我們可以依上面的公式自已畫一個法線貼圖來做實驗，隨便畫幾個方格來指定鏡面方向。</p>
+<p>According to the previous rules, Let&rsquo;s make a normal map by hand to experiment.
+F</p>
 <hr>
 <p><img src="/img/552adde1262417997eadda8c2768ac8c13147a41.jpg" alt=""></p>
-<p>把Normal Map貼到金屬材質上，果然可以看到在同一個平的的金屬有了不同的反射角度。</p>
+<p>Apply the normal map on the mirror surface for experimentation.
+Look at the city view, specular reflection angles are changed by the normal map.</p>
 <hr>
-<p><img src="/img/0db6715fbddc08ab837aa0fba2f1e6eec7534982.jpg" alt=""></p>
-<p>從PolyHeaven下載一個木板材質來比較有沒有用法線貼圖的差異。結果應該不用多說了。</p>
-<hr>
-<p><img src="/img/0313ee96212622701c36a6004d3b3ef147125ea2.jpg" alt=""></p>
-<p>法線貼圖除了做光影效果外，也可以拿來模擬防偽貼紙。</p>
+<p><img src="/img/2ee4991683c3bea7e845947627bf38a3f306d286.jpg" alt=""></p>
+<p>Download a texture from polyHeaven.
+To briefly summarize the concepts explained earlier</p>
 <hr>
 <p><img src="/img/e0bd1a391657d8367e1adbae3b4384db0fa088f4.jpg" alt=""></p>
-<p>總結法線貼圖就是把一個平面分成很多小鏡子。紋理貼圖設定鏡子的顏色，法線貼圖設定鏡子轉的角度。</p>
-<p>不過法線貼圖技術不是設計出來給人類用的，它的最大進步是能被3D算繪的著色器直接使用，增進3D算繪的效能，對3D遊戲的幫助甚大。</p>
+<p>The technology of a normal map is to convert the corresponding picture into small mirrors with different colors and angles.
+The texture map specifies the color of the small mirrors,
+The red, green, and blue channels of the normal map specify the XYZ coordinates of the mirror&rsquo;s vertical emission.</p>
 <hr>
-<p>網路資源：</p>
-<p><a href="https://polyhaven.com">材質貼圖下載網站</a></p>
-<p><a href="https://cpetry.github.io/NormalMap-Online/">線上法線貼圖生成</a></p>
-<p><a href="https://github.com/azagaya/laigter">法線貼圖生成工具</a></p>
+<p>Network Resource：</p>
+<p><a href="https://polyhaven.com">Download Texture</a></p>
+<p><a href="https://cpetry.github.io/NormalMap-Online/">online Normal Map Generator</a></p>
+<p><a href="https://github.com/azagaya/laigter">Normal Map Generator</a></p>
     </article>
   </main>
 
