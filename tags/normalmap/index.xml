@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>normalmap on π≮3</title>
+    <link>https://www.ampbb.net/tags/normalmap/</link>
+    <description>Recent content in normalmap on π≮3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 06 Apr 2023 06:03:37 +0800</lastBuildDate><atom:link href="https://www.ampbb.net/tags/normalmap/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>exalain normal map</title>
+      <link>https://www.ampbb.net/shorts/explain-normal-map/</link>
+      <pubDate>Thu, 06 Apr 2023 06:03:37 +0800</pubDate>
+      
+      <guid>https://www.ampbb.net/shorts/explain-normal-map/</guid>
+      <description>&lt;p&gt;Are you confused by normal map ?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Normal Map - The Magic of Light and Shadow</title>
+      <link>https://www.ampbb.net/2023/03/3d-normal-map/</link>
+      <pubDate>Thu, 30 Mar 2023 21:22:31 +0800</pubDate>
+      
+      <guid>https://www.ampbb.net/2023/03/3d-normal-map/</guid>
+      <description>&lt;p&gt;Brief speaking, the technology of a normal map is to convert the corresponding picture into small mirrors with different colors and angles.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
