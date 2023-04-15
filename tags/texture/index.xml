@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>texture on π≮3</title>
+    <link>https://www.ampbb.net/tags/texture/</link>
+    <description>Recent content in texture on π≮3</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 14 Apr 2023 06:03:37 +0800</lastBuildDate><atom:link href="https://www.ampbb.net/tags/texture/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>360-degree of texture demo</title>
+      <link>https://www.ampbb.net/shorts/demo-texture/</link>
+      <pubDate>Fri, 14 Apr 2023 06:03:37 +0800</pubDate>
+      
+      <guid>https://www.ampbb.net/shorts/demo-texture/</guid>
+      <description>&lt;p&gt;Are you confused by texture ?
+show this demo&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
